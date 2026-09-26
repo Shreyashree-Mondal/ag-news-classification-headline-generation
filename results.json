@@ -1,0 +1,90 @@
+{
+  "setup": {
+    "base_model": "google/pegasus-cnn_dailymail",
+    "dataset": "fancyzhx/ag_news",
+    "train_stories": 96000,
+    "epochs": 10,
+    "batch_size": 8,
+    "steps": 120000,
+    "gpu": "NVIDIA RTX A6000"
+  },
+  "best_validation": {
+    "epoch": 10,
+    "rouge1": 0.7395,
+    "rouge2": 0.7012,
+    "rougeL": 0.7328,
+    "bertscore_f1": 0.9383
+  },
+  "by_epoch": [
+    {
+      "epoch": 1,
+      "rouge1": 0.7198,
+      "rouge2": 0.6829,
+      "rougeL": 0.7135,
+      "bertscore_f1": 0.9335
+    },
+    {
+      "epoch": 2,
+      "rouge1": 0.7295,
+      "rouge2": 0.6926,
+      "rougeL": 0.7233,
+      "bertscore_f1": 0.9352
+    },
+    {
+      "epoch": 3,
+      "rouge1": 0.7364,
+      "rouge2": 0.6992,
+      "rougeL": 0.73,
+      "bertscore_f1": 0.9363
+    },
+    {
+      "epoch": 4,
+      "rouge1": 0.7381,
+      "rouge2": 0.7003,
+      "rougeL": 0.7316,
+      "bertscore_f1": 0.9371
+    },
+    {
+      "epoch": 5,
+      "rouge1": 0.7371,
+      "rouge2": 0.6992,
+      "rougeL": 0.7306,
+      "bertscore_f1": 0.9376
+    },
+    {
+      "epoch": 6,
+      "rouge1": 0.7394,
+      "rouge2": 0.7015,
+      "rougeL": 0.7328,
+      "bertscore_f1": 0.9378
+    },
+    {
+      "epoch": 7,
+      "rouge1": 0.7384,
+      "rouge2": 0.7003,
+      "rougeL": 0.7318,
+      "bertscore_f1": 0.9378
+    },
+    {
+      "epoch": 8,
+      "rouge1": 0.7383,
+      "rouge2": 0.7002,
+      "rougeL": 0.7317,
+      "bertscore_f1": 0.9381
+    },
+    {
+      "epoch": 9,
+      "rouge1": 0.7392,
+      "rouge2": 0.7008,
+      "rougeL": 0.7324,
+      "bertscore_f1": 0.9384
+    },
+    {
+      "epoch": 10,
+      "rouge1": 0.7395,
+      "rouge2": 0.7012,
+      "rougeL": 0.7328,
+      "bertscore_f1": 0.9383
+    }
+  ]
+}
